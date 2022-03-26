@@ -1,3 +1,4 @@
+# NOT MINE
 one_bit = 7 # off by one so that bit 28 doesn't become bit 0 - is corrected via a +1 when used.
 
 def find_one_bit_location_after_PC1(bit_position):

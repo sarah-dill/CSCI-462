@@ -3,7 +3,7 @@
 
 def main():
     print("a mod b")
-    a = input("Enter the first number (a): ")
+    a = input("Enter the first number (a) (larger number): ")
     b = input("Enter the second number (b): ")
     a = int(a)
     b = int(b)
