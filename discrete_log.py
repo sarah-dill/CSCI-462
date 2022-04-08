@@ -35,11 +35,14 @@ def main():
     r = int(sys.argv[2])
     n = int(sys.argv[3])
 
-    for i in range(1, 1000):
+    for i in range(1, n-1):
         x = sq_mul(base, i, n)
         if x == r:
             print("x = " + str(i))
-            break
+            exit(0)
+            
+    # print if there is no value of x that satisfies the equation
+    print("Not defined")
 
 
 main()
